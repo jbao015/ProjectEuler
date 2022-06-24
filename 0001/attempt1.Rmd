@@ -52,4 +52,6 @@ solution(1000)
 
 
 ```
+
+## Time complexity
 Constant time solution

@@ -45,4 +45,6 @@ solution(1000)
 
     ## [1] 233168
 
+## Time complexity
+
 Constant time solution
