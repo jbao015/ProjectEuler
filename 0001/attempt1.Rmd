@@ -47,8 +47,15 @@ solution <- function(n) {
 # Test
 solution(10)
 
+time_start <- Sys.time()
+
 # Answer
 solution(1000)
+
+time_end <- Sys.time()
+
+# runtime
+time_end - time_start 
 
 
 ```

@@ -39,11 +39,22 @@ solution(10)
     ## [1] 23
 
 ``` r
+time_start <- Sys.time()
+
 # Answer
 solution(1000)
 ```
 
     ## [1] 233168
+
+``` r
+time_end <- Sys.time()
+
+# runtime
+time_end - time_start 
+```
+
+    ## Time difference of 0.001240969 secs
 
 ## Time complexity
 
