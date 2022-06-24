@@ -39,9 +39,8 @@ solution(10)
     ## [1] 23
 
 ``` r
-time_start <- Sys.time()
-
 # Answer
+time_start <- Sys.time()
 solution(1000)
 ```
 
@@ -54,7 +53,24 @@ time_end <- Sys.time()
 time_end - time_start 
 ```
 
-    ## Time difference of 0.001240969 secs
+    ## Time difference of 0.001165867 secs
+
+``` r
+# Answer
+time_start <- Sys.time()
+solution(100000000000000)
+```
+
+    ## [1] 2.333333e+27
+
+``` r
+time_end <- Sys.time()
+
+# runtime
+time_end - time_start 
+```
+
+    ## Time difference of 0.001159191 secs
 
 ## Time complexity
 
