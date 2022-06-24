@@ -43,4 +43,3 @@ solution <- function(n) {}
 ```
 
 ## Time complexity
-Constant time solution
