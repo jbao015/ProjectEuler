@@ -24,7 +24,7 @@ Many ways to solve this problem. Here is one:
 3. subtract all multiples of 15
 
 
-```{r cars}
+```{r solution}
 
 solution <- function(n) {
   # get highest multiple of 3 under n, divided by 3

@@ -53,7 +53,7 @@ time_end <- Sys.time()
 time_end - time_start 
 ```
 
-    ## Time difference of 0.001165867 secs
+    ## Time difference of 0.001240969 secs
 
 ``` r
 # Answer
@@ -70,7 +70,7 @@ time_end <- Sys.time()
 time_end - time_start 
 ```
 
-    ## Time difference of 0.001159191 secs
+    ## Time difference of 0.001164913 secs
 
 ## Time complexity
 

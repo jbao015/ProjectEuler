@@ -1,0 +1,46 @@
+---
+title: "Attempt1"
+date: '2022-06-24'
+output:
+  md_document:
+    variant: markdown_github
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Problem
+
+# Solution 1
+
+```{r solution}
+
+solution <- function(n) {}
+
+
+# # Test
+# solution()
+
+# # Answer
+# time_start <- Sys.time()
+# solution()
+# time_end <- Sys.time()
+# 
+# # runtime
+# time_end - time_start 
+# 
+# # Answer
+# time_start <- Sys.time()
+# solution()
+# time_end <- Sys.time()
+# 
+# # runtime
+# time_end - time_start 
+
+
+
+```
+
+## Time complexity
+Constant time solution
