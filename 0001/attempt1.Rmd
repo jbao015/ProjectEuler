@@ -48,5 +48,6 @@ solution(10)
 # Answer
 solution(1000)
 
-```
 
+```
+Constant time solution
