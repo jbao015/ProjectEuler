@@ -1,17 +1,7 @@
----
-title: "Attempt1"
-date: '2022-06-24'
-output:
-  md_document:
-    variant: markdown_github
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 # Problem
-If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+
+If we list all the natural numbers below 10 that are multiples of 3 or
+5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 
 Find the sum of all the multiples of 3 or 5 below 1000.
 
@@ -19,13 +9,11 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 
 Many ways to solve this problem. Here is one:
 
-1. sum all multiples of 3
-2. sum all multiples of 5
-3. subtract all multiples of 15
+1.  sum all multiples of 3
+2.  sum all multiples of 5
+3.  subtract all multiples of 15
 
-
-```{r cars}
-
+``` r
 solution <- function(n) {
   # get highest multiple of 3 under n, divided by 3
   base_3 <- (n-1) %/% 3
@@ -46,10 +34,15 @@ solution <- function(n) {
 
 # Test
 solution(10)
+```
 
+    ## [1] 23
+
+``` r
 # Answer
 solution(1000)
-
-
 ```
+
+    ## [1] 233168
+
 Constant time solution
